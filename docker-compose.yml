@@ -33,5 +33,5 @@ services:
   nginx:
     build: ./configuration/nginx/
     ports:
-      - 8002:8002/udp
-      - 8002:8002
+      - 2376:2376/udp
+      - 2376:2376
